@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TurvaTero</title>
+    <title>Ammattikorkeakoulun turvallisuuschat</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="intro-screen">
-        <div id="intro-content">
-            <span class="emoji">🤖</span>
-            <p>He! Olen <strong>TurvaTero</strong> ja autan sinua tekemään turvallisuusilmoituksen.<br> Eiköhän aloiteta!</p>
-        </div>
-    </div>
-    
     <div id="chatbot">
-        <div id="chat-header">TurvaTero</div>
         <div id="chat-container">
             <div id="chat-log"></div>
+            <div id="help-section">
+                <p><strong>Voit kysyä esimerkiksi:</strong></p>
+                <ul>
+                    <li><button class="question-btn">Mistä näen turvallisuuskävelyn?</button></li>
+                    <li><button class="question-btn">Missä on ensiapupiste?</button></li>
+                    <li><button class="question-btn">Miten elvytän?</button></li>
+                    <li><button class="question-btn">Mistä näen hätäuloskäynnit?</button></li>
+                </ul>
+            </div>
         </div>
-        <input type="text" id="user-input" placeholder="Kirjoita vastaus ja paina Enter">
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
